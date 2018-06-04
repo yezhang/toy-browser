@@ -1,7 +1,7 @@
 ## 调试 Rust
 首先配置好 Cargo，保证执行 cargo 命令时，程序可以正常运行：
-cargo build
-cargo run
+cargo build  
+cargo run  
 
 配置 vs code 调试启动文件：(__.vscode/launch.json__)
 
@@ -52,3 +52,7 @@ cargo run
     "sourceLanguages": ["rust"]
 }
 ```
+
+## 参考资料
+1. vscode-lldb 对于 Rust 和 Cargo 的支持：https://github.com/vadimcn/vscode-lldb/blob/master/MANUAL.md#rust-language-support
+
